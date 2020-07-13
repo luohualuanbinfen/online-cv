@@ -10,15 +10,27 @@
     {{ honors.title }}
   </h2>
 
+  <h3 class="level-title">{{ 科学研究及工程应用 }}</h3>
+
   {% for honor in honors.honor1 %}
   <div class="item">
     {% if honor.link %}
-      <li><a href="{{ honor.link }}">{{ honor.title }}</a></li>
+      <li><a href="{{ honor.link }}">{{ honor.title | markdownify}}</a></li>
     {% else %}
       <li>{{ honor.title }}</li>
     {% endif %}
-    <div class="honor-number">{{ honor.number }}</div>
-    <div class="honor-time">{{ honor.time }}</div>
+  </div><!--//item-->
+  {% endfor %}
+
+  <h3 class="level-title">{{ 学业荣誉 }}</h3>
+
+  {% for honor in honors.honor2 %}
+  <div class="item">
+    {% if honor.link %}
+      <li><a href="{{ honor.link }}">{{ honor.title | markdownify}}</a></li>
+    {% else %}
+      <li>{{ honor.title }}</li>
+    {% endif %}
   </div><!--//item-->
   {% endfor %}
 

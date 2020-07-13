@@ -15,7 +15,7 @@
 
     {% if sidebar.address %}
     <li class="address"><i class="fas fa-address-card"></i>
-      {{ sidebar.address }}
+      {{ sidebar.address | markdownify}}
     </li>
     {% endif %}
 

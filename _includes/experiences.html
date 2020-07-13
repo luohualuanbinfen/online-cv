@@ -6,7 +6,7 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
     </span>
-    Experiences
+    项目经历
   </h2>
 
   {% for experience in experiences %}
@@ -15,7 +15,7 @@
     <div class="meta">
 
       <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
+        <h3 class="job-title">{{ experience.role | markdownify}}</h3>
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
@@ -23,7 +23,7 @@
 
     </div><!--//meta-->
 
-    <div class="imgblock"><img src="assets/images/{{experience.picture}}" width="100%"  ></img></div>
+    <div class="imgblock"><img src="assets/images/{{experience.picture}}" width="100%"></img></div>
 
     {% if experience.details %}
     <div class="details">
