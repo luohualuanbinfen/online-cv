@@ -70,8 +70,54 @@ education:
         专业课程： 桥梁工程、结构设计原理、桥涵水文、钢结构与钢桥、桥梁钢-混凝土组合结构、桥梁施工与管理、港航工程、桥梁美学、桥梁计算机辅助设计
           - Bullet point
           - Bullet point
+
+honors:
+    title: 荣誉获奖
+    honor1:
+      - title: 第三届全国大学生“茅以升公益桥—小桥工程”设计大赛
+        number: 国家级一等奖
+        time: 2019.11
+        link: "#"
+      - title: 2019年全国大学生英语竞赛 A 类
+        number: 国家级三等奖
+        time: 2019.05
+        link: "#"
+      - title: 第一届全国大学生“茅以升公益桥—小桥工程”设计大赛
+        number: 国家级三等奖
+        time: 2018.01
+        link: "#"
+      - title: 第三届全国交通运输院长论坛“新国线大学生优秀论文”
+        number: 国家级二等奖
+        time: 2017.12
+        link: "#"
+      - title: 2017年美国大学生数学建模竞赛
+        number: 国际级二等奖
+        time: 2017.04
+        link: "#"
+    honor2:
+      - title: 第三届全国大学生“茅以升公益桥—小桥工程”设计大赛
+        number: 国家级一等奖
+        time: 2019.11
+        link: "#"
+      - title: 2019年全国大学生英语竞赛 A 类
+        number: 国家级三等奖
+        time: 2019.05
+        link: "#"
+      - title: 第一届全国大学生“茅以升公益桥—小桥工程”设计大赛
+        number: 国家级三等奖
+        time: 2018.01
+        link: "#"
+      - title: 第三届全国交通运输院长论坛“新国线大学生优秀论文”
+        number: 国家级二等奖
+        time: 2017.12
+        link: "#"
+      - title: 2017年美国大学生数学建模竞赛
+        number: 国际级二等奖
+        time: 2017.04
+        link: "#"
+
 experiences:
-    - role: 波纹钢腹板组合槽型梁动力性能研究
+    - role: <b>波纹钢腹板组合槽型梁动力性能研究</b>
       time: 2019.07 - 至今
       company: 硕士毕业设计
       picture: TGCW20200713_2043361.gif

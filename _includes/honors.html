@@ -1,0 +1,26 @@
+{% assign publications = site.data.data.honors %}
+{% if honors %}
+<section class="section honors-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ honors.title }}
+  </h2>
+
+  {% for honor in honors.honor1 %}
+  <div class="item">
+    {% if honor.link %}
+      <li><a href="{{ honor.link }}">{{ honor.title }}</a></li>
+    {% else %}
+      <li>{{ honor.title }}</li>
+    {% endif %}
+    <div class="honor-number">{{ honor.number }}</div>
+    <div class="honor-time">{{ honor.time }}</div>
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
