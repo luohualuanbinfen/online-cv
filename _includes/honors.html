@@ -10,29 +10,31 @@
     {{ honors.title }}
   </h2>
 
-
-  {% for honor in honors.honor1 %}
-  <div class="item">
+  <div class="site">
     <h3 class="level-title">{{ 科学研究及工程应用 }}</h3>
-    {% if honor.link %}
-      <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
-    {% else %}
-      <li>{{ honor.title }}</li>
-    {% endif %}
-  </div><!--//item-->
-  {% endfor %}
+    {% for honor in honors.honor1 %}
+    <div class="item">
+      {% if honor.link %}
+        <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
+      {% else %}
+        <li>{{ honor.title }}</li>
+      {% endif %}
+    </div><!--//item-->
+    {% endfor %}
+  </div><!--//site-->
 
-
-  {% for honor in honors.honor2 %}
-  <div class="item">
+  <div class="site">
     <h3 class="level-title">{{ 学业荣誉 }}</h3>
-    {% if honor.link %}
-      <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
-    {% else %}
-      <li>{{ honor.title }}</li>
-    {% endif %}
-  </div><!--//item-->
-  {% endfor %}
+    {% for honor in honors.honor2 %}
+    <div class="item">
+      {% if honor.link %}
+        <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
+      {% else %}
+        <li>{{ honor.title }}</li>
+      {% endif %}
+    </div><!--//item-->
+    {% endfor %}
+  </div><!--//site-->
 
 </section><!--//section-->
 {% endif %}
