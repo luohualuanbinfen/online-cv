@@ -1,4 +1,6 @@
 {% assign sidebar = site.data.data.sidebar %}
+
+
 <div class="sidebar-wrapper">
 
   <div class="profile-container">
@@ -7,7 +9,7 @@
     <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
 
-    {% if sidebar.name %}
+    {% if csidebar.name %}
     <h1 class="name">{{ sidebar.name }}</h1>
     {% endif %}
 
@@ -23,8 +25,13 @@
     {% include education.html %}
   {% endif %}
 
-  {% include language.html %}
-  {% include interests.html %}
+  {% if sidebar.languages %}
+    {% include language.html %}
+  {% endif %}
+
+  {% if sidebar.interests %}
+    {% include interests.html %}
+  {% endif %}
 
   {% if sidebar.about %}
     {% include about.html %}
