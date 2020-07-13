@@ -235,33 +235,28 @@ publications:
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
+      - title: 1. Ziye Yang, Ming Yang, Xueliang Rong, Linjie Tian, "Theoretical and Numerical Study on Dynamic Characteristics of Composite Trough Girder with Corrugated Steel Webs", ASCE's Journal of Bridge Engineering, In Review.
         link: "#"
         authors: Donald E. Knuth
         conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: 1. 杨明,\textbf{杨子晔},何晓晖,张海龙,田林杰,一种基于Excel的波形钢腹板组合槽型梁Abaqus参数化建模及分析方法,审查中
         link: "#"
         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 activities:
     - role: <b>学术部部长</b>
       time: 2019.07 - 至今
       company: 东南大学交通学院研究生会
       details: |
-       负责组织<b>学术讲座</b>(3次)、<b>学术沙龙</b>(1次)、<b>校庆论文报告会</b>(1次)，为交院师生提供学术交流平台。
+       -负责组织学术讲座(3次)、学术沙龙(1次)、校庆论文报告会(1次)，为交院师生提供学术交流平台。
     - role: <b>宣传部副部长</b>
       time: 2015.09 - 2016.10
       company: 东南大学学生团体联合会
       details: |
-       负责校内大型活动（新生杯、院系杯、百团大战等）\textbf{宣传品}（喷绘、海报、展架等）的\textbf{设计20余项}。
-       2015-2016学年东南大学学生团体联合会优秀干部，2016年6月 
+       -负责校内大型活动（新生杯、院系杯、百团大战等）宣传品（喷绘、海报、展架等）的设计20余项。
+       -2015-2016学年东南大学学生团体联合会优秀干部，2016年6月 
 
 skills:
     title: Skills &amp; Proficiency
