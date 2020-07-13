@@ -60,9 +60,22 @@ education:
       university: 东南大学, 桥梁与隧道工程专业
       time: 2018.09 - 2021.06
       details: |
-        专业课程： 高等桥梁结构设计原理、桥梁结构分析、结构抗风分析、桥梁动力分析与抗震设计、弹塑性力学 、钢-混凝土组合结构桥梁
-          - Bullet point
-          - Bullet point
+        专业课程： 高等桥梁结构设计原理、桥梁结构分析、结构抗风分析、桥梁动力分析与抗震设计、弹塑性力学 、钢-混凝土组合结构桥梁；
+        <table border="1">
+        <tr>
+        <th>Heading</th>
+        <th>Another Heading</th>
+        </tr>
+        <tr>
+        <td>row 1, cell 1</td>
+        <td>row 1, cell 2</td>
+        </tr>
+        <tr>
+        <td>row 2, cell 1</td>
+        <td>row 2, cell 2</td>
+        </tr>
+        </table>
+        
     - degree: 工学学士
       university: 东南大学, 道路桥梁与渡河工程专业
       time: 2014.09 - 2018.06
@@ -237,13 +250,9 @@ publications:
     papers:
       - title: 1. Ziye Yang, Ming Yang, Xueliang Rong, Linjie Tian, "Theoretical and Numerical Study on Dynamic Characteristics of Composite Trough Girder with Corrugated Steel Webs", ASCE's Journal of Bridge Engineering, In Review.
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
 
       - title: 1. 杨明,\textbf{杨子晔},何晓晖,张海龙,田林杰,一种基于Excel的波形钢腹板组合槽型梁Abaqus参数化建模及分析方法,审查中
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
 activities:
     - role: <b>学术部部长</b>
@@ -259,7 +268,7 @@ activities:
        -2015-2016学年东南大学学生团体联合会优秀干部，2016年6月 
 
 skills:
-    title: Skills &amp; Proficiency
+    title: 专业技能
 
     toolset:
       - name: Python & Django
