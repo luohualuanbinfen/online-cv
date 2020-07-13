@@ -55,22 +55,18 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: 东南大学
+    - degree: 在读工学硕士, 研究方向：组合结构
+      university: 东南大学, 桥梁与隧道工程专业
       time: 2018.09 - 2021.06
       details: |
         专业课程： 高等桥梁结构设计原理、桥梁结构分析、结构抗风分析、桥梁动力分析与抗震设计、弹塑性力学 、钢-混凝土组合结构桥梁
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: 工学学士
+      university: 东南大学, 道路桥梁与渡河工程专业
+      time: 2014.09 - 2018.06
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        专业课程： 桥梁工程、结构设计原理、桥涵水文、钢结构与钢桥、桥梁钢-混凝土组合结构、桥梁施工与管理、港航工程、桥梁美学、桥梁计算机辅助设计
           - Bullet point
           - Bullet point
 experiences:
