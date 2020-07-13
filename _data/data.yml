@@ -61,29 +61,45 @@ education:
       time: 2018.09 - 2021.06
       details: |
         专业课程： 高等桥梁结构设计原理、桥梁结构分析、结构抗风分析、桥梁动力分析与抗震设计、弹塑性力学 、钢-混凝土组合结构桥梁；
-        <table border="1">
-        <tr>
-        <th>Heading</th>
-        <th>Another Heading</th>
-        </tr>
-        <tr>
-        <td>row 1, cell 1</td>
-        <td>row 1, cell 2</td>
-        </tr>
-        <tr>
-        <td>row 2, cell 1</td>
-        <td>row 2, cell 2</td>
-        </tr>
-        </table>
+
         
     - degree: 工学学士
       university: 东南大学, 道路桥梁与渡河工程专业
       time: 2014.09 - 2018.06
       details: |
         专业课程： 桥梁工程、结构设计原理、桥涵水文、钢结构与钢桥、桥梁钢-混凝土组合结构、桥梁施工与管理、港航工程、桥梁美学、桥梁计算机辅助设计
-          - Bullet point
-          - Bullet point
-
+        <table border="1">
+        <tr>
+        <th>时间</th>
+        <th>年级</th>
+        <th>绩点</th>
+        <th>专业排名</th>
+        </tr>
+        <tr>
+        <td>2017.9-2018.7</td>
+        <td>大四</td>
+        <td colspan="2">本校保研（东南大学）</td>
+        </tr>
+        <tr>
+        <td>2016.9-2017.7</td>
+        <td>大三</td>
+        <td>4.624</td>
+        <td>1/103</td>
+        </tr>
+        <tr>
+        <td>2015.9-2016.7</td>
+        <td>大二</td>
+        <td>3.65</td>
+        <td>30/103</td>
+        </tr>       
+        <tr>
+        <td>2014.9-2015.7</td>
+        <td>大一</td>
+        <td>3.817</td>
+        <td>15/279</td>
+        </tr>
+        </table>
+        
 honors:
     title: 荣誉获奖
     item1: 科学研究及工程应用
