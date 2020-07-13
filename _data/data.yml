@@ -73,6 +73,8 @@ education:
 
 honors:
     title: 荣誉获奖
+    item1: 科学研究及工程应用
+    item2: 学业荣誉
     honor1:
       - title: 2019.11, 第三届全国大学生“茅以升公益桥—小桥工程”设计大赛, <b>国家级一等奖</b>
         # number: 国家级一等奖
