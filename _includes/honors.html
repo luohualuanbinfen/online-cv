@@ -15,7 +15,7 @@
   <div class="item">
     <h3 class="level-title">{{ 科学研究及工程应用 }}</h3>
     {% if honor.link %}
-      <li><a href="{{ honor.link }}">{{ honor.title | markdownify}}</a></li>
+      <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
     {% else %}
       <li>{{ honor.title }}</li>
     {% endif %}
@@ -27,7 +27,7 @@
   <div class="item">
     <h3 class="level-title">{{ 学业荣誉 }}</h3>
     {% if honor.link %}
-      <li><a href="{{ honor.link }}">{{ honor.title | markdownify}}</a></li>
+      <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
     {% else %}
       <li>{{ honor.title }}</li>
     {% endif %}
