@@ -1,3 +1,7 @@
+<style>
+#demo{width:100%;height:100%;}
+</stye>
+
 {% assign experiences = site.data.data.experiences %}
 {% if experiences %}
 <section class="section experiences-section">
@@ -23,7 +27,7 @@
 
     </div><!--//meta-->
 
-    <div class="imgblock"><img src="assets/images/XRT-9-14-YZY.gif"></img></div>
+    <div class="imgblock"><img src="assets/images/{{experience.picture}}" id="demo"></img></div>
 
     {% if experience.details %}
     <div class="details">
@@ -36,5 +40,6 @@
 
 </section><!--//section-->
 {% endif %}
+
 
 
