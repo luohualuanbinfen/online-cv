@@ -68,7 +68,7 @@ education:
       time: 2014.09 - 2018.06
       details: |
         专业课程： 桥梁工程、结构设计原理、桥涵水文、钢结构与钢桥、桥梁钢-混凝土组合结构、桥梁施工与管理、港航工程、桥梁美学、桥梁计算机辅助设计
-        <table border="1">
+        <table width="95%" border="1" cellpadding="2" cellspacing="1">
         <tr>
         <th>时间</th>
         <th>年级</th>
