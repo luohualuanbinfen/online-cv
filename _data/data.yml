@@ -63,7 +63,7 @@ education:
         专业课程： 高等桥梁结构设计原理、桥梁结构分析、结构抗风分析、桥梁动力分析与抗震设计、弹塑性力学 、钢-混凝土组合结构桥梁；
 
         
-    - degree: 工学学士
+    - degree: <b>工学学士</b>
       university: 东南大学, 道路桥梁与渡河工程专业
       time: 2014.09 - 2018.06
       details: |
@@ -71,10 +71,10 @@ education:
         <div style="text-align: center;">
           <table width="100%" border="1" cellpadding="2" cellspacing="1">
           <tr>
-          <th>时间</th>
-          <th>年级</th>
-          <th>绩点</th>
-          <th>专业排名</th>
+          <td>时间</td>
+          <td>年级</td>
+          <td>绩点</td>
+          <td>专业排名</td>
           </tr>
           <tr>
           <td>2017.9-2018.7</td>
