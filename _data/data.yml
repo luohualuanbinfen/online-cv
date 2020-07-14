@@ -290,16 +290,16 @@ activities:
 skills1:
     title: 专业技能
     toolset:
-      - name: 专业相关软体
-        title: MATLAB，ABAQUS，ANSYS，OpenSees，MIDAS，SIMPACK，REVIT，CAD，Sketch & Photoshop...
+      - name: <b>专业相关软体</b>
+        title: -MATLAB，ABAQUS，ANSYS，OpenSees，MIDAS，SIMPACK，REVIT，CAD，Sketch & Photoshop...
         level: 98%
 
-      - name: 编程语言
-        title: HTML5 & CSS，Javascript，Python，C++，Fortran...
+      - name: <b>编程语言</b>
+        title: -HTML5 & CSS，Javascript，Python，C++，Fortran...
         level: 98%
 
-      - name: 技能证书
-        title: 全国BIM等级一级，全国计算机等级考试二级...
+      - name: <b>技能证书</b>
+        title: -全国BIM等级一级，全国计算机等级考试二级...
         level: 98%
 
 footer: >
