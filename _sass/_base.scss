@@ -170,9 +170,14 @@ p {
         margin-bottom: 60px;
     }
 
-    .experiences-section, .educations-section, .honors-section{
+    .experiences-section, .educations-section {
         .item {
             margin-bottom: 30px;
+        }
+    }
+    .honors-section{
+        .item {
+            margin-bottom: 10px;
         }
     }
     .upper-row {
