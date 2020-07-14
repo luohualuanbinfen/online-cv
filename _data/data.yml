@@ -56,7 +56,7 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: 在读工学硕士, 研究方向：组合结构
+    - degree: <b>在读工学硕士</b>, 研究方向：组合结构
       university: 东南大学, 桥梁与隧道工程专业
       time: 2018.09 - 2021.06
       details: |
