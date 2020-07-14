@@ -12,20 +12,13 @@
 
 
   <div class="item">
-    <div class="meta">
-
-      <div class="upper-row">
-        <h3 class="job-title">{{ publications.item1 }}</h3>
-      </div><!--//upper-row-->
-
-    </div><!--//meta-->
+    <h4 class="honor-title">{{ publications.item1 }}</h4>
 
     {% for publication in publications.papers1 %}
       <div class="details">
-        {{ publication.title | markdownify }}
+        {{ publication.title  }}
       </div><!--//details-->
     {% endfor %}
- 
   </div><!--//item-->
 
   {% for publication in publications.papers2 %}
