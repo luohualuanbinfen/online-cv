@@ -11,27 +11,24 @@
 
   <h4 class="honor-title">{{ honors.item1 }}</h4>
 
-  <div class="details">
-    {% for honor in honors.honor1 %}
-      {% if honor.link %}
-        <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
-      {% else %}
-        <li>{{ honor.title }}</li>
-      {% endif %}
-    {% endfor %}
-  </div><!--//details-->
+  {% for honor in honors.honor1 %}
+    {% if honor.link %}
+      <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
+    {% else %}
+      <li>{{ honor.title }}</li>
+    {% endif %}
+  {% endfor %}
 
   <h4 class="honor-title">{{ honors.item2 }}</h4>
 
-  <div class="details">
-    {% for honor in honors.honor2 %}
-      {% if honor.link %}
-        <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
-      {% else %}
-        <li>{{ honor.title }}</li>
-      {% endif %}
-    {% endfor %}
-  </div><!--//details-->
+  {% for honor in honors.honor2 %}
+    {% if honor.link %}
+      <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
+    {% else %}
+      <li>{{ honor.title }}</li>
+    {% endif %}
+  {% endfor %}
+
 
 </section><!--//section-->
 {% endif %}
