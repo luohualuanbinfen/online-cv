@@ -13,13 +13,11 @@
   <h4 class="level-title">{{ honors.item1 }}</h4>
 
   {% for honor in honors.honor1 %}
-  <div class="item">
-    {% if honor.link %}
-      <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
-    {% else %}
-      <li>{{ honor.title }}</li>
-    {% endif %}
-  </div><!--//item-->
+  {% if honor.link %}
+    <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
+  {% else %}
+    <li>{{ honor.title }}</li>
+  {% endif %}
   {% endfor %}
 
   <h4 class="level-title">{{ honors.item2 }}</h4>
