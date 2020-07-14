@@ -19,7 +19,7 @@
         {% if experience.link %}
            <h3 class="job-title"><a href="{{ experience.link }}">{{ experience.role }}</a></h3>
         {% else %}
-          <li>{{ experience.title }}</li>
+           <h3 class="job-title">{{ experience.role }}</h3>
         {% endif %}
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
