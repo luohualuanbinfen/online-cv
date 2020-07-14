@@ -14,26 +14,24 @@
     <h3 class="job-title">{{ honors.item1 }}</h3>
   </div><!--//upper-row-->
  
-  <h4 class="level-title">{{ honors.item1 }}</h4>
-
   {% for honor in honors.honor1 %}
-  {% if honor.link %}
-    <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
-  {% else %}
-    <li>{{ honor.title }}</li>
-  {% endif %}
-  {% endfor %}
-
-  <h4 class="level-title">{{ honors.item2 }}</h4>
-
-  {% for honor in honors.honor2 %}
-  <div class="item">
     {% if honor.link %}
       <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
     {% else %}
       <li>{{ honor.title }}</li>
     {% endif %}
-  </div><!--//item-->
+  {% endfor %}
+
+  <div class="upper-row">
+    <h3 class="job-title">{{ honors.item2 }}</h3>
+  </div><!--//upper-row-->
+
+  {% for honor in honors.honor2 %}
+  {% if honor.link %}
+    <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
+  {% else %}
+    <li>{{ honor.title }}</li>
+  {% endif %}
   {% endfor %}
 
 </section><!--//section-->
