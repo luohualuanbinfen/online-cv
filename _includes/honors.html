@@ -17,15 +17,16 @@
       </div><!--//upper-row-->
 
     </div><!--//meta-->
-
-    {% for honor in honors.honor1 %}
-      <div class="details">
-        <li>{{ honor.title}}</li>
-      </div><!--//details-->
-    {% endfor %}
  
   </div><!--//item-->
 
+
+  {% for honor in honors.honor1 %}
+    <div class="details">
+      <li>{{ honor.title}}</li>
+    </div><!--//details-->
+  {% endfor %}
+    
   <h4 class="honor-title">{{ honors.item1 }}</h4>
 
   <div class="details">
