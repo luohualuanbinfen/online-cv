@@ -1,0 +1,25 @@
+{% assign skills1 = site.data.data.skills1 %}
+{% if skills1 %}
+<section class="skills1-section section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ skills1.title }}
+  </h2>
+
+  <div class="item">
+
+    {% for skill in skills1.toolset %}
+      <h4 class="honor-title">{{ skill.name }}</h4>
+      <div class="details">
+        {{ skill.title  }}
+      </div><!--//details-->
+    {% endfor %}
+  </div><!--//item-->
+
+
+</section><!--//skills1-section-->
+{% endif %}
