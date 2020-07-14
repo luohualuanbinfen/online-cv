@@ -297,7 +297,7 @@ activities:
        -2015-2016学年东南大学学生团体联合会优秀干部
 
 skills1:
-    title: 专业技能(点击下划线文字查看证书)
+    title: 专业技能
     toolset:
       - name: <b>专业相关软体</b>
         title: -MATLAB，ABAQUS，ANSYS，OpenSees，MIDAS，SIMPACK，REVIT，CAD，Sketch & Photoshop...
