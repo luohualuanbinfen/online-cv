@@ -25,13 +25,15 @@
 
   <h3 class="job-title">{{ honors.item2 }}</h3>
 
-  {% for honor in honors.honor2 %}
-  {% if honor.link %}
-    <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
-  {% else %}
-    <li>{{ honor.title }}</li>
-  {% endif %}
-  {% endfor %}
+  <div class="details">
+    {% for honor in honors.honor2 %}
+      {% if honor.link %}
+        <li><a href="{{ honor.link }}">{{ honor.title}}</a></li>
+      {% else %}
+        <li>{{ honor.title }}</li>
+      {% endif %}
+    {% endfor %}
+  </div><!--//details-->
 
 </section><!--//section-->
 {% endif %}
