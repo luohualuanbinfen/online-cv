@@ -154,7 +154,7 @@ honors:
 
 experiences:
     - role: <b>波纹钢腹板组合槽型梁动力性能研究</b>
-      link: "#"
+      # link: "#"
       time: 2019.07 - 至今
       company: 硕士毕业设计
       picture: TGCW20200713_2043361.gif
@@ -182,7 +182,7 @@ experiences:
         </br>(项目具体信息可点击标题进行查看)
 
     - role: <b>桩基托换有限元分析</b>
-      link: "#"
+      # link: "#"
       time: 2018.10 - 2018.11
       company: 横向课题
       picture: zjth.png
@@ -194,7 +194,7 @@ experiences:
         </br>- 通过分析桩基轴力、竖向位移、盖梁内力和托换承台力，以确保在桩基托换及盾构施工过程中桥梁结构的安全性；
 
     - role: <b>预应力混凝土箱梁早期裂缝研究</b>
-      link: "#"
+      # link: "#"
       time: 2017.09 - 2018.06
       company: 本科毕业设计
       picture: xlzqkl.png

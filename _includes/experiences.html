@@ -16,7 +16,11 @@
     <div class="meta">
 
       <div class="upper-row">
-        <h3 class="job-title"><a href="{{ experience.link }}">{{ experience.role }}</a></h3>
+        {% if experience.link %}
+           <h3 class="job-title"><a href="{{ experience.link }}">{{ experience.role }}</a></h3>
+        {% else %}
+          <li>{{ experience.title }}</li>
+        {% endif %}
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
