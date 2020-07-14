@@ -261,14 +261,16 @@ projects:
 
 publications:
     title: Publications
+    item1: 代表性论文
+    item2: 代表性专利
     intro: |
       You can list your publications in this section. Lorem ipsum dolor sit
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
-    papers:
+    papers1:
       - title: 1. Ziye Yang, Ming Yang, Xueliang Rong, Linjie Tian, "Theoretical and Numerical Study on Dynamic Characteristics of Composite Trough Girder with Corrugated Steel Webs", ASCE's Journal of Bridge Engineering, In Review.
         link: "#"
-
+    papers2:
       - title: 1. 杨明,\textbf{杨子晔},何晓晖,张海龙,田林杰,一种基于Excel的波形钢腹板组合槽型梁Abaqus参数化建模及分析方法,审查中
         link: "#"
 
