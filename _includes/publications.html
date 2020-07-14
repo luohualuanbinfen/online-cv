@@ -21,15 +21,22 @@
     {% endfor %}
   </div><!--//item-->
 
-  {% for publication in publications.papers2 %}
+
   <div class="item">
-    {% if publication.link %}
-      <a href="{{ publication.link }}">{{ publication.title }}</a>
-    {% else %}
-      {{ publication.title }}
-    {% endif %}
+    <h4 class="honor-title">{{ publications.item2 }}</h4>
+
+    {% for publication in publications.papers2 %}
+      <div class="details">
+        {% if publication.link %}
+          <a href="{{ publication.link }}">{{ publication.title }}</a>
+        {% else %}
+          {{ publication.title }}
+        {% endif %}
+      </div><!--//details-->
+    {% endfor %}
   </div><!--//item-->
-  {% endfor %}
+
+
 
 </section><!--//section-->
 {% endif %}
